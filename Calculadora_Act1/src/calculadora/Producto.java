@@ -14,6 +14,8 @@ public class Productos {
 * @param num1-valor 1
 * @param num2-valor 2
 * @return -retorna un valor entero con el resultado de la operacion
+*@throws NumberFormatException
+* Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 */
 	public int multiplicar1 (int num1, int num2){
 	
@@ -27,6 +29,8 @@ public class Productos {
 *@param num1-valor 1
 *@param num2-valor 2
 *@return -retorna un valor entero con el resultado de la operacion
+*@throws NumberFormatException
+* 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 */
 	public float multiplicar2 (float num1, float num2){
 	
@@ -39,6 +43,8 @@ public class Productos {
 *@param num2-valor 2
 *@param num3-valor 3
 *@return -retorna un valor entero con el resultado de la operacion
+*@throws NumberFormatException
+* Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 */
 	public int multiplicar3 (int num1, int num2,int num3){
 	
@@ -50,6 +56,8 @@ public class Productos {
 *@param base-valor 1
 *@param exponente-valor 2
 *@return -retorna un valor entero con el resultado de la operacion
+*@throws NumberFormatException
+* Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 */
 	public double multiplicar4 (double base, double exponente){
 	
