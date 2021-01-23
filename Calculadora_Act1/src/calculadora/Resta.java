@@ -21,8 +21,8 @@
 			 * 		Valor del sustraendo.
 			 * @return restoR
 			 * 		Resultado de la operacion.
-			 * @throws Exception
-			 * 		Excepcion dada. {@link Exception#getLocalizedMessage()}
+			 * @throws NumberFormatException
+			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
@@ -39,8 +39,8 @@
 			 * 		Valor del sustraendo.
 			 * @return restoE
 			 * 		Resultado de la operacion.
-			 * @throws Exception
-			 * 		Excepcion dada. {@link Exception#getLocalizedMessage()}
+			 * @throws NumberFormatException
+			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
@@ -59,8 +59,8 @@
 			 * 		Valor del sustraendo dos.
 			 * @return restoTres
 			 * 		Resultado de la operacion.
-			 * @throws Exception
-			 * 		Excepcion dada. {@link Exception#getLocalizedMessage()}
+			 * @throws NumberFormatException
+			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
@@ -74,8 +74,8 @@
 			 * @param valor
 			 * 		Valor del numero guardado
 			 * @return valor
-			 * @throws Exception
-			 * 		Excepcion dada. {@link Exception#getLocalizedMessage()}
+			 * @throws NumberFormatException
+			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
