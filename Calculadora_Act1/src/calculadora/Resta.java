@@ -19,7 +19,9 @@
 			 * 		Valor del minuendo.
 			 * @param sustraendoR
 			 * 		Valor del sustraendo.
-			 * @return restoR
+			 * @param resultado1
+			 *		Valor del resultado.
+			 * @return resultado1
 			 * 		Resultado de la operacion.
 			 * @throws NumberFormatException
 			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
@@ -27,7 +29,8 @@
 			 */
 			
 			public double restaReales(double minuendoR, double sustraendoR) {
-				return (minuendoR-sustraendoR);
+				resultado1=minuendoR-sustraendoR;
+				return resultado1;
 			}
 			
 			/**
@@ -37,7 +40,9 @@
 			 * 		Valor del minuendo.
 			 * @param sustraendoE
 			 * 		Valor del sustraendo.
-			 * @return restoE
+			 * @param resultado2
+			 *		Valor del resultado.
+			 * @return resultado2
 			 * 		Resultado de la operacion.
 			 * @throws NumberFormatException
 			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
@@ -45,7 +50,8 @@
 			 */
 			
 			public int restaEnteros(int minuendoE, int sustraendoE) {
-				return (minuendoE-sustraendoE);
+				resultado2=minuendoE-sustraendoE;
+				return resultado2;
 			}
 			
 			/**
@@ -57,7 +63,9 @@
 			 * 		Valor del sustraendo.
 			 * @param sustraendoDosTres
 			 * 		Valor del sustraendo dos.
-			 * @return restoTres
+			 * @param resultado3
+			 *		Valor del resultado.
+			 * @return resultado3
 			 * 		Resultado de la operacion.
 			 * @throws NumberFormatException
 			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
@@ -65,7 +73,8 @@
 			 */
 			
 			public double restaTresReales(double minuendoTres, double sustraendoTres, double sustraendoDosTres) {
-				return (minuendoTres-sustraendoTres-sustraendoDosTres);
+				resultado3=minuendoTres-sustraendoTres-sustraendoDosTres;
+				return resultado3;
 			}
 			
 			/**
@@ -73,14 +82,18 @@
 			 * 
 			 * @param valor
 			 * 		Valor del numero guardado
-			 * @return valor
+			 * @param resultado4
+			 *		Valor del resultado.
+			 * @return resultado4
+			 * 		Resultado de la operación.
 			 * @throws NumberFormatException
 			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
 			public double acumulado(double valor) {
-				return (resultado=resultado-valor);
+				resultado4=resultado4-valor;
+				return resultado4;
 			}
 
 		}
