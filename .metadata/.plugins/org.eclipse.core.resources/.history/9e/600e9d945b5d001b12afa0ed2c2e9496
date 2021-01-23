@@ -1,8 +1,5 @@
 package calculadora;
 
-import java.lang.Math;
-
-
 /**
  * Esta clase implementa los métodos relacionados con 
  * la <b>división</b> de la clase Calculadora.
@@ -59,8 +56,7 @@ public class Cociente {
 	 */
 	
 	public int cocienteEnteros(int n1, int n2) {
-		int result = n1 / n2;
-		return result;
+		return 0;
 	}
 	
 	/**
@@ -82,8 +78,7 @@ public class Cociente {
 	 */
 	
 	public float inverso(float x) {
-		float result = 1 / x;
-		return result;	
+		return 0;
 	}
 	
 	/**
@@ -105,8 +100,7 @@ public class Cociente {
 	 */
 	
 	public double raiz(int y) {
-		double result = (double)(Math.sqrt(y));
-		return result;
+		return 0;
 	}
 
 }

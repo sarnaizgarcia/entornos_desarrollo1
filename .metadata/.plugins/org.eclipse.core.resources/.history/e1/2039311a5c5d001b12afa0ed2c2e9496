@@ -1,8 +1,5 @@
 package calculadora;
 
-import java.lang.Math;
-
-
 /**
  * Esta clase implementa los métodos relacionados con 
  * la <b>división</b> de la clase Calculadora.
@@ -105,8 +102,7 @@ public class Cociente {
 	 */
 	
 	public double raiz(int y) {
-		double result = (double)(Math.sqrt(y));
-		return result;
+		return 0;
 	}
 
 }

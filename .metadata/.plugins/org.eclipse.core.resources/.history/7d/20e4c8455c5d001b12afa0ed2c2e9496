@@ -105,8 +105,7 @@ public class Cociente {
 	 */
 	
 	public double raiz(int y) {
-		double result = (double)(Math.sqrt(y));
-		return result;
+		return 0;
 	}
 
 }

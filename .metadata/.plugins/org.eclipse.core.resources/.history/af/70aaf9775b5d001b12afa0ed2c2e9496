@@ -1,8 +1,5 @@
 package calculadora;
 
-import java.lang.Math;
-
-
 /**
  * Esta clase implementa los métodos relacionados con 
  * la <b>división</b> de la clase Calculadora.
@@ -20,8 +17,7 @@ public class Cociente {
 	 * @param f2 
 	 * 		Divisor real.
 	 * 
-	 * @return result 
-	 * 		División de f1/f2 con un máximo de dos decimales redondeando 
+	 * @return División de f1/f2 con un máximo de dos decimales redondeando 
 	 * 		hacia arriba. 
 	 * 
 	 * @throws ArithmeticException 
@@ -34,8 +30,7 @@ public class Cociente {
 	 */
 
 	public float cocienteReales(float f1, float f2) {
-		float result = f1 / f2;
-		return result;
+		return 0;
 	}
 	
 	/**
@@ -46,8 +41,7 @@ public class Cociente {
 	 * @param n2 
 	 * 		Divisor entero.
 	 * 
-	 * @return result 
-	 * 		División de n1/n2, redondeando hacia arriba.
+	 * @return División de n1/n2, redondeando hacia arriba.
 	 * 
 	 * @throws ArithmeticException 
 	 * 		Se lanza una excepción si f2 (el divisor) es igual a 0.
@@ -59,8 +53,7 @@ public class Cociente {
 	 */
 	
 	public int cocienteEnteros(int n1, int n2) {
-		int result = n1 / n2;
-		return result;
+		return 0;
 	}
 	
 	/**
@@ -69,8 +62,7 @@ public class Cociente {
 	 * @param x 
 	 * 		Número real.
 	 * 
-	 * @return result 
-	 * 		Inverso de x, redondeado a dos decimales.
+	 * @return Inverso de x, redondeado a dos decimales.
 	 * 
 	 * @throws ArithmeticException 
 	 * 		Se lanza una excepción si x es igual a 0.
@@ -82,8 +74,7 @@ public class Cociente {
 	 */
 	
 	public float inverso(float x) {
-		float result = 1 / x;
-		return result;	
+		return 0;
 	}
 	
 	/**
@@ -92,8 +83,7 @@ public class Cociente {
 	 * @param y 
 	 * 		Número entero.
 	 * 
-	 * @return result 
-	 * 		Raiz cuadrada de y, redondeando a dos decimales.
+	 * @return Raiz cuadrada de y, redondeando a dos decimales.
 	 * 
 	 * @throws ArithmeticException 
 	 * 		Se lanza una excepción si x es igual a 0.
@@ -105,8 +95,7 @@ public class Cociente {
 	 */
 	
 	public double raiz(int y) {
-		double result = (double)(Math.sqrt(y));
-		return result;
+		return 0;
 	}
 
 }
