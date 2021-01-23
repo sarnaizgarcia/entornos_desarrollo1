@@ -1,0 +1,62 @@
+package calculadora;
+
+/**
+ * Esta clase implementa los metodos relacionados con la <b>division</b> de la clase Calculadora
+ * 
+ * @author sarnaizgarcia
+ * 
+ */
+
+public class Cociente {
+	
+	/**
+	 * El metodo cocienteReales divide dos <b>numeros enteros</b>
+	 * 
+	 * @param f1 dividendo real
+	 * @param f2 divisor real
+	 * 
+	 * @return division de f1/f2
+	 */
+	
+	public float cocienteReales(float f1, float f2) {
+		return 0;
+	}
+	
+	/**
+	 * El metodo cocienteEnteros divide dos <em>numeros reales</em>
+	 * 
+	 * @param n1 dividendo entero
+	 * @param n2 divisor entero
+	 * 
+	 * @return division de n1/n2
+	 */
+	
+	public int cocienteEnteros(int n1, int n2) {
+		return 0;
+	}
+	
+	/**
+	 * El metodo inverso calcula el <u>inverso</u> de un numero
+	 * 
+	 * @param x número real
+	 * 
+	 * @return inverso de x
+	 */
+	
+	public float inverso(float x) {
+		return 0;
+	}
+	
+	/**
+	 * El metodo raiz calcula la raiz cuadrada de un numero entero
+	 * 
+	 * @param y número entero
+	 * 
+	 * @return raiz cuadrada de y
+	 */
+	
+	public double raiz(int y) {
+		return 0;
+	}
+
+}

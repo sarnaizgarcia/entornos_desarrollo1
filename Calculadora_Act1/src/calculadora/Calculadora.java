@@ -1,7 +1,7 @@
 package calculadora;
 
 /**
- * Esta clase implementa una calculadora
+ * Esta clase implementa una calculadora.
  * 
  * @author sarnaizgarcia
  * @version 1.0

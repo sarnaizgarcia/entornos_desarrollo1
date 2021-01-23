@@ -1,0 +1,89 @@
+package calculadora;
+
+/**
+ * Esta clase implementa los métodos relacionados con 
+ * la <b>división</b> de la clase Calculadora.
+ * 
+ * @author sarnaizgarcia. 
+ */
+
+public class Cociente {
+	
+	/**
+	 * El método cocienteReales divide dos <b>números enteros</b>.
+	 * 
+	 * @param f1 
+	 * 		Dividendo real.
+	 * @param f2 
+	 * 		Divisor real.
+	 * 
+	 * @return División de f1/f2 con un máximo de dos decimales redondeando 
+	 * 		hacia arriba. 
+	 * 
+	 * @throws Exception 
+	 * 		Se lanza una excepción si f2 (el divisor) es igual a 0.
+	 * @throws InvalidParameter 
+	 * 		Se lanza una excepción si f1 o f2 < 0.
+	 */
+	
+	public float cocienteReales(float f1, float f2) {
+		return 0;
+	}
+	
+	/**
+	 * El método cocienteEnteros divide dos <em>números reales</em>
+	 * 
+	 * @param n1 
+	 * 		Dividendo entero.
+	 * @param n2 
+	 * 		Divisor entero.
+	 * 
+	 * @return División de n1/n2, redondeando hacia arriba.
+	 * 
+	 * @throws Exception 
+	 * 		Se lanza una excepción si f2 (el divisor) es igual a 0.
+	 * @throws InvalidParameter 
+	 * 		Se lanza una excepción si f1 < 0 o f2 < 0.
+	 */
+	
+	public int cocienteEnteros(int n1, int n2) {
+		return 0;
+	}
+	
+	/**
+	 * El método inverso calcula el <u>inverso</u> de un número.
+	 * 
+	 * @param x 
+	 * 		Número real.
+	 * 
+	 * @return Inverso de x, redondeado a dos decimales.
+	 * 
+	 * @throws Exception 
+	 * 		Se lanza una excepción si x es igual a 0.
+	 * @throws InvalidParameter 
+	 * 		Se lanza una excepción si f1 o f2 < 0.
+	 */
+	
+	public float inverso(float x) {
+		return 0;
+	}
+	
+	/**
+	 * El método raiz calcula la raíz cuadrada de un número entero.
+	 * 
+	 * @param y 
+	 * 		Número entero.
+	 * 
+	 * @return Raiz cuadrada de y, redondeando a dos decimales.
+	 * 
+	 * @throws Exception 
+	 * 		Se lanza una excepción si x es igual a 0.
+	 * @throws InvalidParameter 
+	 * 		Se lanza una excepción si f1 o f2 < 0.
+	 */
+	
+	public double raiz(int y) {
+		return 0;
+	}
+
+}
