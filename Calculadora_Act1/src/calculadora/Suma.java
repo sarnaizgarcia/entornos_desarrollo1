@@ -1,7 +1,6 @@
 package calculadora;
-
 /**
- * Esta clase realiza la operación básica de sumar
+ * Esta clase realiza la operación básicas de sumar
  * 
  * @author Elena Vega
  * @since 22/01/2021
@@ -14,11 +13,13 @@ public class Operaciones {
 	 * 
 	 * @param num1 representa el primer numero a sumar. Sólo permite la entrada de parámetros numéricos, por ejemplo (0,2.5,-3,4.5...).
 	 * @param num2 representa el segundo numero a sumar. Sólo permite la entrada de parámetros numéricos, por ejemplo (0,2.5,-3,4.5...).
-	 * @return devuelve la suma de ambos números
+	 * @param result guarda el resultado real de la operación.
+	 * @return devuelve el valor del resultado
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
-	public float sumaDosReales(float num1, float num2, float result) {
-		return result=num1 + num2;
+	public float sumaDosReales(float num1, float num2) {
+		float result=num1 + num2;
+		return result;
 	}
 	
 	/**
@@ -26,12 +27,14 @@ public class Operaciones {
 	 * 
 	 * @param num1 representa el primer numero a sumar. Sólo permite la entrada de parámetros numéricos enteros, por ejemplo (0,1,2,3...).
 	 * @param num2 representa el segundo numero a sumar. Sólo permite la entrada de parámetros numéricos enteros, por ejemplo (0,1,2,3...).
-	 * @return devuelve la suma de ambos números
+	 * @param result guarda el resultado real de la operación.
+	 * @return devuelve el valor del resultado
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
 	
-	public int sumaDosEnteros(int num1, int num2, int result) {
-		return result=num1 + num2;
+	public int sumaDosEnteros(int num1, int num2) {
+		int result=num1 + num2;
+		return result;
 	}
 	
 	/**
@@ -40,11 +43,13 @@ public class Operaciones {
 	 * @param num1 representa el primer numero a sumar. Sólo permite la entrada de parámetros numéricos, por ejemplo (0,2.5,-3,4.5...).
 	 * @param num2 representa el segundo numero a sumar. Sólo permite la entrada de parámetros numéricos, por ejemplo (0,2.5,-3,4.5...).
 	 * @param num3 representa el primer numero a sumar. Sólo permite la entrada de parámetros numéricos, por ejemplo (0,2.5,-3,4.5...).
-	 * @return devuelve la suma de ambos números
+	 * @param result guarda el resultado real de la operación.
+	 * @return devuelve el valor del resultado
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
-	public float sumarTresReales(float num1, float num2, float num3, float result) {
-		return result=num1 + num2 + num3;
+	public float sumarTresReales(float num1, float num2, float num3) {
+		float result=num1 + num2 + num3;
+		return result;
 	}
 	
 	/**
@@ -52,11 +57,12 @@ public class Operaciones {
 	 * 
 	 * @param num1 representa el primer numero a sumar. Sólo permite la entrada de parámetros numéricos enteros, por ejemplo (0,1,2,3...).
 	 * @param result representa el resultado de la operación y actúa como acumulador.
-	 * @return devuelve la suma de ambos números
+	 * @param result guarda el resultado real de la operación.
+	 * @return devuelve el valor del resultado
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
-	public int sumaAcumulado(int num1, int result) {
-		return result=num1 + result;
+	public int sumaAcumulado(int num1) {
+		int result=num1 + result;
+		return result;
 	}
-	
 }
