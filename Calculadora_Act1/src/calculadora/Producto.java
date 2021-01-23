@@ -62,6 +62,8 @@ public class Productos {
 * @return -retorna un valor entero con el resultado de la operacion
 * @throws NumberFormatException
 * Excepcion si se introduce un valor String. {@link NumberFormatException#getLocalizedMessage()}
+* @throws ArithmeticException 
+* Se lanza una excepción si la potencia es bastante grande.
 */
 	public double multiplicar4 (double base, double exponente){
 	
