@@ -33,8 +33,8 @@ public class Cociente {
 	 *              y no se puede convertir a un tipo numérico.  
 	 */
 
-	public float cocienteReales(float f1, float f2) {
-		float result = f1 / f2;
+	public double cocienteReales(double f1, double f2) {
+		double result = f1 / f2;
 		return result;
 	}
 	
@@ -81,8 +81,8 @@ public class Cociente {
 	 *              y no se puede convertir a un tipo numérico.
 	 */
 	
-	public float inverso(float x) {
-		float result = 1 / x;
+	public double inverso(double x) {
+		double result = 1 / x;
 		return result;	
 	}
 	

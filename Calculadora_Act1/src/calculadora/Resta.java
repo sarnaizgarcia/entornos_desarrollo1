@@ -10,7 +10,7 @@
 		 * 
 		 */
 
-		public class resta{
+		public class Resta{
 			
 			/**
 			 * Este metodo resta dos <b>numeros reales</b>
@@ -29,7 +29,7 @@
 			 */
 			
 			public double restaReales(double minuendoR, double sustraendoR) {
-				resultado1=minuendoR-sustraendoR;
+				double resultado1=minuendoR-sustraendoR;
 				return resultado1;
 			}
 			
@@ -50,7 +50,7 @@
 			 */
 			
 			public int restaEnteros(int minuendoE, int sustraendoE) {
-				resultado2=minuendoE-sustraendoE;
+				int resultado2=minuendoE-sustraendoE;
 				return resultado2;
 			}
 			
@@ -73,7 +73,7 @@
 			 */
 			
 			public double restaTresReales(double minuendoTres, double sustraendoTres, double sustraendoDosTres) {
-				resultado3=minuendoTres-sustraendoTres-sustraendoDosTres;
+				double resultado3=minuendoTres-sustraendoTres-sustraendoDosTres;
 				return resultado3;
 			}
 			
@@ -92,6 +92,7 @@
 			 */
 			
 			public double acumulado(double valor) {
+				double resultado4 = 0.0;
 				resultado4=resultado4-valor;
 				return resultado4;
 			}

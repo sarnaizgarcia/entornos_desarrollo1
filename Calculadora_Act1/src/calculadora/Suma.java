@@ -7,7 +7,7 @@ package calculadora;
  * @version 1.0
  *
  */
-public class Operaciones {
+public class Suma {
 	/**
 	 * Este metodo suma dos numeros reales
 	 * 
@@ -17,8 +17,8 @@ public class Operaciones {
 	 * @return devuelve el valor del resultado
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
-	public float sumaDosReales(float num1, float num2) {
-		float result=num1 + num2;
+	public double sumaDosReales(double num1, double num2) {
+		double result=num1 + num2;
 		return result;
 	}
 	
@@ -47,8 +47,8 @@ public class Operaciones {
 	 * @return devuelve el valor del resultado
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
-	public float sumarTresReales(float num1, float num2, float num3) {
-		float result=num1 + num2 + num3;
+	public double sumarTresReales(double num1, double num2, double num3) {
+		double result=num1 + num2 + num3;
 		return result;
 	}
 	
@@ -62,7 +62,8 @@ public class Operaciones {
 	 * @throws NumberFormatException: lanza excepción si se introduce un caracter no numérico.
 	 */
 	public int sumaAcumulado(int num1) {
-		int result=num1 + result;
+		int result = 0; 
+		result=num1 + result;
 		return result;
 	}
 }

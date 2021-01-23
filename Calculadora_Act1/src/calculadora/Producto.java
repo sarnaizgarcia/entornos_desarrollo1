@@ -1,4 +1,4 @@
-package Calculadora;
+package calculadora;
 import java.util.*;
 
 /**
@@ -8,7 +8,7 @@ import java.util.*;
 *
 */
 
-public class Productos {
+public class Producto {
 /**
 * Este metodo permite multiplicar 2 valores reales
 * @param num1-valor 1
@@ -69,7 +69,7 @@ public class Productos {
 	
 	
 	Object math;
-	double result (math).pow(base,exponente);
+	double result = (Math.pow(base,exponente));
 	return result;
 	}
 }
