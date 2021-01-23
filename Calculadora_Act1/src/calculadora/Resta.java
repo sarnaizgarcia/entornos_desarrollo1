@@ -22,7 +22,7 @@
 			 * @return restoR
 			 * 		Resultado de la operacion.
 			 * @throws NumberFormatException
-			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
+			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
@@ -40,7 +40,7 @@
 			 * @return restoE
 			 * 		Resultado de la operacion.
 			 * @throws NumberFormatException
-			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
+			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
@@ -60,7 +60,7 @@
 			 * @return restoTres
 			 * 		Resultado de la operacion.
 			 * @throws NumberFormatException
-			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
+			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
@@ -75,7 +75,7 @@
 			 * 		Valor del numero guardado
 			 * @return valor
 			 * @throws NumberFormatException
-			 * 		Excepcion dada. {@link NumberFormatException#getLocalizedMessage()}
+			 * 		Excepcion si se introduce un valor no valido. {@link NumberFormatException#getLocalizedMessage()}
 			 * 
 			 */
 			
