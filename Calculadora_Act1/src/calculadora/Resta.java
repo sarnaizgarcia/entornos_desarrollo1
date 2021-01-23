@@ -80,7 +80,7 @@
 			 */
 			
 			public double acumulado(double valor) {
-				return valor;
+				return (resultado=resultado-valor);
 			}
 
 		}
