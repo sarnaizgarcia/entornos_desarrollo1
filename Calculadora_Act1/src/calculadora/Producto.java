@@ -28,7 +28,7 @@ public class Productos {
 *@param num2-valor 2
 *@return -retorna un valor entero con el resultado de la operacion
 */
-	public int multiplicar2 (int num1, int num2){
+	public float multiplicar2 (float num1, float num2){
 	
 	return 0;
 	}
