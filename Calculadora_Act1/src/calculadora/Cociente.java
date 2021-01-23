@@ -24,6 +24,9 @@ public class Cociente {
 	 * 		Se lanza una excepción si f2 (el divisor) es igual a 0.
 	 * @throws InvalidParameterException 
 	 * 		Se lanza una excepción si f1 o f2 < 0.
+	 * @throws NumberFormatException
+	 * 		Se lanza una excepción si f1 o f2 tiene formato de string 
+	 *              y no se puede convertir a un tipo numérico.  
 	 */
 
 	public float cocienteReales(float f1, float f2) {
@@ -44,6 +47,9 @@ public class Cociente {
 	 * 		Se lanza una excepción si f2 (el divisor) es igual a 0.
 	 * @throws InvalidParameterException 
 	 * 		Se lanza una excepción si f1 < 0 o f2 < 0.
+	 * @throws NumberFormatException
+	 * 		Se lanza una excepción si f1 o f2 tiene formato de string 
+	 *              y no se puede convertir a un tipo numérico.
 	 */
 	
 	public int cocienteEnteros(int n1, int n2) {
@@ -62,6 +68,9 @@ public class Cociente {
 	 * 		Se lanza una excepción si x es igual a 0.
 	 * @throws InvalidParameterException 
 	 * 		Se lanza una excepción si f1 o f2 < 0.
+	 * @throws NumberFormatException
+	 * 		Se lanza una excepción si f1 o f2 tiene formato de string 
+	 *              y no se puede convertir a un tipo numérico.
 	 */
 	
 	public float inverso(float x) {
@@ -80,6 +89,9 @@ public class Cociente {
 	 * 		Se lanza una excepción si x es igual a 0.
 	 * @throws InvalidParameterException 
 	 * 		Se lanza una excepción si f1 o f2 < 0.
+	 * @throws NumberFormatException
+	 * 		Se lanza una excepción si f1 o f2 tiene formato de string 
+	 *              y no se puede convertir a un tipo numérico.
 	 */
 	
 	public double raiz(int y) {
