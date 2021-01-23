@@ -19,7 +19,7 @@ public class Productos {
 */
 	public int multiplicar1 (int num1, int num2){
 	
-	return 0;
+	return num1*num2;
 	}
 
 
@@ -34,7 +34,7 @@ public class Productos {
 */
 	public float multiplicar2 (float num1, float num2){
 	
-	return 0;
+	return num1*num2;
 	}
 
 /**
@@ -48,7 +48,7 @@ public class Productos {
 */
 	public int multiplicar3 (int num1, int num2,int num3){
 	
-	return 0;
+	return num1*num2*num3;
 	}
 
 /**
@@ -62,6 +62,7 @@ public class Productos {
 	public double multiplicar4 (double base, double exponente){
 	
 	
-	return 0);
+	Object math;
+	return (math).pow(base,exponente);
 	}
 }
